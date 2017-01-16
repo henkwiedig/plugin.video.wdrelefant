@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.addon.id" name="WDR Elefent" version="0.0.1" provider-name="henk@wiedig.de">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Videos vom Elefanten schauen</summary>
+    <description lang="de_DE">Videos vom Elefanten schauen</description>
+    <disclaimer lang="de_DE"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GPL</license>
+    <forum></forum>
+    <website>https://github.com/henkwiedig/plugin.video.wdrelefant</website>
+    <email>henk at wiedig dot de</email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon></icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
