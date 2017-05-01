@@ -19,6 +19,8 @@ sections = {'0' : "Anke",
            '4' : "Lieder",
            '5' : "Raetsel",
            '6' : "Tanja und Adre",
+           '7' : "Sachgeschichten",
+           '8' : "Der kleine Maulwurf",
 }
 
 def build_url(query):
@@ -31,7 +33,7 @@ if mode is None:
     response = urllib.urlopen(elefanturl)
     data = json.loads(response.read())
 
-    print json.dumps(data,indent=1)
+#    print json.dumps(data,indent=1)
 
     for section in data["clips"]:
         if section == '':
